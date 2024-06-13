@@ -1,0 +1,141 @@
+:root {
+  --primary-color: #7c3030;
+  --secondary-color: #a95c68;
+  --third-color: #f98169;
+  /* --bisque:rgb(249, 236, 222); */
+  /* --second-backround:rgb(249, 214, 178); */
+  --bisque: rgb(227, 201, 153);
+}
+
+
+/* section1(Nav bar) - start */
+
+.navbar{
+  background-color: var(--primary-color);
+  
+
+}
+
+.nav-item .active{
+  color: white !important;
+}
+
+.nav-item a{
+  color:rgb(150, 149, 149) !important;
+  /* color:var(--bisque); */
+  transition: color 0.2s ease-in-out;
+  margin-right: 13px !important;
+ 
+}
+.nav-item a:hover{
+  color:white !important;
+  
+}
+
+.nav-svg{
+  font-size: 5px;
+}
+
+.navbar-toggler {
+  color: white; 
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+
+}
+
+/* section1(Nav bar) - End */
+
+
+/* section 2 - Start */
+
+.section-2{
+  background-color: var(--primary-color);
+  color:rgb(150, 149, 149) !important;
+
+}
+.shop-now{
+  color: black;
+  background-color: var(--bisque);
+  font-size: 15px;
+  padding:6px 15px !important;
+  border-radius:70px ;
+  border: none;
+  transition: 0.5s ease;
+  margin-right: 10px;
+}
+/* .shop-now:hover{
+  color: white;
+  background: none;
+  font-size: 15px;
+  padding:6px 15px !important;
+  border-radius:70px ;
+  border: 1px solid var(--bisque);
+} */
+
+.section-2 .explore{
+  color: white;
+  background: none;
+  font-size: 15px;
+  padding:6px 15px !important;
+  border-radius:70px ;
+  border: 1px solid var(--bisque);
+  transition:color 0.6s ease;
+}
+.explore:hover{
+  color: black;
+  background-color: var(--bisque);
+  font-size: 15px;
+  padding:5px 14px !important;
+  border-radius:70px ;
+  border: none;
+}
+
+/* section 2 - End */
+
+
+/* section  - start */
+.section-3{
+  background-color: var(--bisque);
+  padding: 75px 0 !important;
+  
+}
+
+.section-3 h4{
+  color: var(--primary-color) !important;
+}
+
+
+.section-3 .explore{
+  color: white;
+  background-color: var(--primary-color);
+  font-size: 15px;
+  padding:6px 15px !important;
+  border-radius:70px ;
+  border: 1px solid var(--bisque);
+  transition:color 0.6s ease;
+}
+.section-3 .explore:hover{
+  color: black;
+  background: none;
+  border: 1.5px solid var(--primary-color);
+  font-size: 15px;
+  padding:6px 15px !important;
+  border-radius:70px ;
+}
+
+.section-3 .price{
+  text-align: center;
+}
+.section-3 .sofa{
+  transition: 0.5s ease;
+}
+.section-3 .sofa:hover{
+  transform: scale(1.25);
+
+  cursor: pointer;
+  /* background-color: #923c3c; */
+  /* border-radius: 10px; */
+}

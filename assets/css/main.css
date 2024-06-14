@@ -96,7 +96,7 @@
 /* section 2 - End */
 
 
-/* section  - start */
+/* section3 - start */
 .section-3{
   background-color: var(--bisque);
   padding: 75px 0 !important;
@@ -106,7 +106,6 @@
 .section-3 h4{
   color: var(--primary-color) !important;
 }
-
 
 .section-3 .explore{
   color: white;
@@ -140,8 +139,10 @@
   /* border-radius: 10px; */
 }
 
+/* section3 - end */
 
 
+/* section4 - start */
 .section-4{
   background-color: var(--bisque);
   /* padding: 75px 0 !important; */
@@ -170,3 +171,57 @@
   text-align: right;
   /* padding-right: 55px; */
 }
+
+/* section4 - end */
+
+
+/* section5 (footer)- start */
+
+.footer{
+  background-color: var(--primary-color);
+  padding: 40px 0 20px 0 !important;
+  color: var(--bisque);
+  font-size: 14px;
+}
+
+.footer ul{
+  list-style-type: none;
+  
+}
+.footer ul li {
+  
+  padding-bottom: 8px !important;
+  
+}
+
+.footer ul li a ,.footer .view-post a{
+  text-decoration: none;
+  color: var(--bisque);
+  transition: color 0.3s ease-in-out;
+   
+}
+
+.footer ul li a:hover ,.footer .view-post a:hover{
+  color: white;
+   
+}
+
+.footer .social-links a{
+
+  color: var(--primary-color);
+  background-color: white;
+  padding: 4px 8px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.footer .social-links a:hover{
+  color: white;
+  background: none;
+  border: 1px solid white; 
+}
+
+
+
+/* section5 (footer)- end */
+
